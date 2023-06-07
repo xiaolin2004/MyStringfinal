@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="test">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="test\Lib">
+      <UniqueIdentifier>{6a138cc6-cab8-4eff-b411-9b774ca98652}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyString\algobase.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="MyString\algorithm.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="MyString\allocator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="MyString\astring.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="MyString\basic_string.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="MyString\construct.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="MyString\exceptdef.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="MyString\functional.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="MyString\iterator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="MyString\memory.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="MyString\mycstring.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="MyString\type_traits.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="MyString\uninitialized.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="MyString\util.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\Lib\redbud\io\color.h">
+      <Filter>test\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\Lib\redbud\platform.h">
+      <Filter>test\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\test.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\cstring_test.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\string_test.h">
+      <Filter>test</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Test\test.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

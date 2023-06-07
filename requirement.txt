@@ -1,0 +1,195 @@
+B方式【正常学习方式】：
+
+一、设计mystring类，要求实现以下功能：【共77个功能】
+
+1、http://www.cplusplus.com/reference/cstring/   中右边所涉及的以下22个函数  功能。
+
+memcpy,memmove,strcpy,strncpy,strcat,
+
+strncat,memcmp,strcmp,strcoll,strncmp,
+
+strxfrm,memchr,strchr,strcspn,strpbrk,
+
+strrchr,strspn,strstr,strtok,memset,
+
+strerror,strlen
+
+
+
+2、http://www.cplusplus.com/reference/string/ 中右边所涉及的以下9个函数功能。
+
+stoi  Convert string to integer
+
+stol  Convert string to long int
+
+stoul  Convert string to unsigned integer 
+
+stoll  Convert string to long long
+
+stoull Convert string to unsigned long long
+
+stof  Convert string to float
+
+stod Convert string to double
+
+stold  Convert string to long double
+
+to_string  Convert numerical value to string
+
+
+
+3、Construct string object。（共6个）。功能描述与使用见：http://www.cplusplus.com/reference/string/string/string/
+
+Constructs a string object, initializing its value depending on the constructor version used:
+
+(1) empty string constructor (default constructor)
+
+Constructs an empty string, with a length of zero characters.
+
+(2) copy constructor
+
+Constructs a copy of str.
+
+(3) substring constructor
+
+Copies the portion of str that begins at the character position pos and spans len characters (or until the end of str, if either str is too short or if len is string::npos).
+
+(4) from c-string
+
+Copies the null-terminated character sequence (C-string) pointed by s.
+
+(5) from buffer
+
+Copies the first n characters from the array of characters pointed by s.
+
+(6) fill constructor
+
+Fills the string with n consecutive copies of character c.
+
+
+
+4、实现以下功能。（共40个）
+
+功能描述与使用见：http://www.cplusplus.com/reference/string/string/
+
+（1）(destructor)    String destructor 
+
+（2）operator=     String assignment 
+
+Capacity:
+
+（3）size     Return length of string (public member function )
+
+（4）length    Return length of string (public member function )
+
+（5）max_size   Return maximum size of string (public member function )
+
+（6）resize   Resize string (public member function )
+
+（7）capacity   Return size of allocated storage (public member function )
+
+(8)reserve   Request a change in capacity (public member function )
+
+(9)clear   Clear string (public member function )
+
+(10)empty   Test if string is empty (public member function )
+
+(11)shrink_to_fit    Shrink to fit (public member function )
+
+
+
+Element access:
+
+(12)operator[]     Get character of string (public member function )
+
+(13)at    Get character in string (public member function )
+
+(14)back     Access last character (public member function )
+
+(15)front    Access first character (public member function )
+
+
+
+Modifiers:
+
+(16)operator+=     Append to string (public member function )
+
+(17)append    Append to string (public member function )
+
+(18)push_back    Append character to string (public member function )
+
+(19)assign    Assign content to string (public member function )
+
+(20)insert    Insert into string (public member function )
+
+(21)erase    Erase characters from string (public member function )
+
+(22)replace    Replace portion of string (public member function )
+
+(23)swap    Swap string values (public member function )
+
+(24)pop_back     Delete last character (public member function )
+
+
+
+String operations:
+
+(25)data    Get string data (public member function )
+
+(26)copy    Copy sequence of characters from string (public member function )
+
+(27)find    Find content in string (public member function )
+
+(28)rfind    Find last occurrence of content in string (public member function )
+
+(29)find_first_of    Find character in string (public member function )
+
+(30)find_last_of    Find character in string from the end (public member function )
+
+(31)find_first_not_of    Find absence of character in string (public member function )
+
+(32)find_last_not_of    Find non-matching character in string from the end (public member function )
+
+(33)substr    Generate substring (public member function )
+
+(34)compare    Compare strings (public member function )
+
+
+
+Non-member function overloads
+
+(35)operator+    Concatenate strings (function )
+
+(36)relational     operators Relational operators for string (function )
+
+(37)swap     Exchanges the values of two strings (function )
+
+(38)operator>>    Extract string from stream (function )
+
+(39)operator<<    Insert string into stream (function )
+
+(40)getline    Get line from stream into string (function )
+
+
+
+5、测试
+
+测试以上各功能是否正确实现
+
+
+
+三、评分标准：
+
+总评成绩=期末成绩（60%）+平时成绩（40%）
+
+1、期末成绩的评定标准：
+
+（1）A方式提供设计文档+所有源程序
+
+         B方式提供源程序
+
+         A方式依据项目的难度，创造性，挑战性，工作量，完成情况等各方面综合评价，评定综合成绩
+
+（2）B方式：功能实现占60%，源程序的可读性占40%；
+
+         A方式：功能实现占60%，设计文档及源程序的可读性占40%】
