@@ -734,6 +734,32 @@ namespace mystl
 				os << *(str.buffer_ + i);
 			return os;
 		}
+		//getline
+		std::istream& getline(std::istream& is, basic_string& str, char delim) {
+			str.clear();
+			char c;
+			while (is.get(c)) {
+				if (c == delim) break;
+				str.push_back(c);
+			}
+			return is;
+		}
+		std::istream& getline(std::istream&& is, basic_string& str, char delim)
+		{
+			str.clear();
+			char c;
+			while (is.get(c)) {
+				if (c == delim) break;
+				str.push_back(c);
+			}
+			return is;
+		}
+		std::istream& getline(std::istream& is, basic_string& str) {
+			return getline(is, str, '\n');
+		}
+		std::istream& getline(std::istream&& is, basic_string& str) {
+			return getline(is, str, '\n');
+		}
 
 	private:
 		// helper functions

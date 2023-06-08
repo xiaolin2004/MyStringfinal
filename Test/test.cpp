@@ -20,7 +20,6 @@ int main()
 	RUN_ALL_TESTS();
 	string_test::string_test();
 	cstring_test::TestCstring();
-
 #if defined(_MSC_VER) && defined(_DEBUG)
 	_CrtDumpMemoryLeaks();
 #endif // check memory leaks

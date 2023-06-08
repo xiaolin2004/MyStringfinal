@@ -185,6 +185,13 @@ namespace mystl
 				std::cout << " str3 + \" success\" : " << str3 + " success" << std::endl;
 				std::cout << " \"My \" + str3 : " << "My " + str3 << std::endl;
 				std::cout << " str3 + str4 : " << str3 + str4 << std::endl;
+				std::istringstream input;
+				input.str("str.getline (is,str);This is the first line\nThis is the second line");
+				str.getline(input, str);
+				std::cout << str << std::endl;
+				input.str("str.getline (is,str,delim);This is the first line!This is the second line");
+				str.getline(input, str,'!');
+				std::cout << str << std::endl;
 				PASSED;
 #if PERFORMANCE_TEST_ON
 				std::cout << "[--------------------- Performance Testing ---------------------]" << std::endl;
